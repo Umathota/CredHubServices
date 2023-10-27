@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document Verification</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Document Verification</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Verify Your Document</h2>
+            <p>Enter the document information below to verify its authenticity.</p>
+            <form action="verify.php" method="post">
+                <label for="document-code">Document Code:</label>
+                <input type="text" id="document-code" name="document-code" required>
+                <button type="submit">Verify</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

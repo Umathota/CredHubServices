@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Refresh Page Example</title>
+</head>
+<body>
+    <header>
+        <h1>Refresh Page Example</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Click the button to refresh the page</h2>
+            <button id="refresh-button">Refresh</button>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Your Company Name</p>
+    </footer>
+
+    <script>
+        // JavaScript to refresh the page when the button is clicked
+        document.getElementById("refresh-button").addEventListener("click", function() {
+            location.reload();
+        });
+    </script>
+</body>
+</html>
