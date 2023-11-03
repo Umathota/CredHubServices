@@ -1,4 +1,4 @@
-Project: Blockchain Based Credential Verification Service.
+Project: **Blockchain Based Credential Verification Service**
 
 This project aims to create a secure and decentralized system for document verification using Blockchain technologies. The system stores the hash of the documents in the Blockchain network. This ensures that the documents cannot be tampered with or altered, and they can be easily retrieved and verified by authorized parties.
 
